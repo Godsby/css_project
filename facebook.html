@@ -10,140 +10,137 @@
 
   <body>
     <div class="flex-container">
-      <div class="flex-item"> <!-- Header part starts -->
-        <h1 class="facebook-header"></h1>
-          <img class="fb_logo" src="./facebook-text-logo.png">
-          <table>
-            <input type="email" name="loginId" value="Email or Phone">
-            <input type="password" name="password" value="Password">
-            <input type="submit" name="submit" value="Log In">
-          </table>
-          <a href="https://www.facebook.com/recover/initiate?lwv=111&amp;ars=royal_blue_bar">Forgot account?</a>
-      </div><!-- Header part ends <-->
+      <div class="header"> <!-- Header part starts -->
 
-      <div class="flex-item"> <!-- Left side starts -->
-        <h2 class="slogan" style="padding: 42px 0 24px; font-size: 28px; line-height: 36px">Connect with friends and the world around you on Facebook. </h2>
-        <div class="feed">
-          <img class="img" src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.2365-6/32213527_1720875981299142_7601737152052854784_n.png?_nc_cat=1&amp;_nc_ht=scontent-lga3-1.xx&amp;oh=c7e288476b1b01f3c2d912790b66565b&amp;oe=5C7880E8" alt="" style="vertical-align: middle">
-          <span class="feed-highlight"> See photos and updates </span>
-          <span class="feed-description"> from friends in News Feed. </span>
-        </div>
-        <div class="timeline">
-          <img class="img" src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.2365-6/32220240_200651090730619_3989834943638274048_n.png?_nc_cat=1&amp;_nc_ht=scontent-lga3-1.xx&amp;oh=1c0cbe1af637ae74bde7c39a5a069bde&amp;oe=5C77EC36" alt="" style="vertical-align: middle">
+        <img class="fb_logo" src="./facebook-text-logo.png">
+        <input class="email" type="email" name="loginId" placeholder="Email or Phone">
+        <input class="password" type="password" name="password" placeholder="Password">
+        <input class="submit" type="submit" name="submit" value="Log In">
+        <a class="recovery" href="https://www.facebook.com/recover/initiate?lwv=111&amp;ars=royal_blue_bar">Forgot account?</a>
+
+      </div><!-- Header part ends -->
+
+      <div class="left-side"> <!-- Left side starts -->
+
+        <h2 style="padding: 42px 0 24px; font-size: 28px; line-height: 36px">Connect with friends and the world around you on Facebook. </h2>
+
+        <img class="img" src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.2365-6/32213527_1720875981299142_7601737152052854784_n.png?_nc_cat=1&amp;_nc_ht=scontent-lga3-1.xx&amp;oh=c7e288476b1b01f3c2d912790b66565b&amp;oe=5C7880E8" alt="" style="vertical-align: middle">
+        <span class="feed-highlight"> See photos and updates </span>
+        <span class="feed-description"> from friends in News Feed. </span>
+
+        <img class="img" src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.2365-6/32220240_200651090730619_3989834943638274048_n.png?_nc_cat=1&amp;_nc_ht=scontent-lga3-1.xx&amp;oh=1c0cbe1af637ae74bde7c39a5a069bde&amp;oe=5C77EC36" alt="" style="vertical-align: middle">
           <span class="timeline-highlight"> Share what's new </span>
           <span class="timeline-description"> in your life on your Timeline. </span>
-        </div>
-        <div class="search">
-          <img class="img" src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.2365-6/32158113_191365994837162_5605369115159035904_n.png?_nc_cat=1&amp;_nc_ht=scontent-lga3-1.xx&amp;oh=0767882da09168785b9b06fe8e8fffaa&amp;oe=5C8789B5" alt="" style="vertical-align: middle">
+
+        <img class="img" src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.2365-6/32158113_191365994837162_5605369115159035904_n.png?_nc_cat=1&amp;_nc_ht=scontent-lga3-1.xx&amp;oh=0767882da09168785b9b06fe8e8fffaa&amp;oe=5C8789B5" alt="" style="vertical-align: middle">
           <span class="search-highlight"> Find more </span>
           <span class="search-description"> of what you're looking for with Facebook Search. </span>
-        </div>
+
       </div> <!--Left side ends-->
 
-      <div class="flex-item"> <!-- Right side starts -->
+      <div class="right-side"> <!-- Right side starts -->
+
         <h2 class="sign-up" style="font-size: 36px">Sign Up</h2>
-        <div class="trap">It’s free and always will be.</div>
-        <div class="registration form">
-          <form class="large-form" action="https://m.facebook.com/reg/" method="post">
-            <input type="text" name="firstname" placeholder="First name">
-            <input type="text" name="lastname" placeholder="Last Name">
-            <input type="text" name="mobile" placeholder="Mobile number or email">
-            <input type="text" name="newpass" placeholder="New password">
-          </form>
-          <div class="birthday">
-            <form>
-              <select name="Month" placeholder="Nov">
-                <option value="Jan">Jan</option>
-                <option value="Feb">Feb</option>
-                <option value="Mar">Mar</option>
-                <option value="Apr">Apr</option>
-                <option value="May">May</option>
-                <option value="Jun">Jun</option>
-                <option value="Jul">Jul</option>
-                <option value="Aug">Aug</option>
-                <option value="Sep">Sep</option>
-                <option value="Oct">Oct</option>
-                <option value="Nov">Nov</option>
-                <option value="Dec">Dec</option>
-              </select>
+        <p>It’s free and always will be.</p>
 
-              <select name=“day” placeholder="6">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-                <option value="11">11</option>
-                <option value="12">12</option>
-                <option value="13">13</option>
-                <option value="14">14</option>
-                <option value="15">15</option>
-                <option value="16">16</option>
-                <option value="17">17</option>
-                <option value="18">18</option>
-                <option value="19">19</option>
-                <option value="20">20</option>
-                <option value="21">21</option>
-                <option value="22">22</option>
-                <option value="23">23</option>
-                <option value="24">24</option>
-                <option value="25">25</option>
-                <option value="26">26</option>
-                <option value="27">27</option>
-                <option value="28">28</option>
-                <option value="29">29</option>
-                <option value="30">30</option>
-                <option value="31">31</option>
-              </select>
+        <form class="registration-form" action="https://m.facebook.com/reg/" method="post">
+          <input type="text" name="firstname" placeholder="First name">
+          <input type="text" name="lastname" placeholder="Last Name">
+          <input class="newemail"
+          type="text" name="mobile" placeholder="Mobile number or email">
+          <input class="newpass" type="text" name="newpass" placeholder="New password">
+        </form>
 
-                <select name="year">
-                  <option value="1989">1989</option>
-                  <option value="1990">1990</option>
-                  <option value="1991">1991</option>
-                  <option value="1992">1992</option>
-                  <option value="1993">1993</option>
-                  <option value="1994">1994</option>
-                  <option value="1995">1995</option>
-                  <option value="1996">1996</option>
-                  <option value="1997">1997</option>
-                  <option value="1998">1998</option>
-                  <option value="1999">1999</option>
-                  <option value="2000">2000</option>
+        <form class="birthday">
+          <select name="Month" placeholder="Nov">
+            <option value="Jan">Jan</option>
+            <option value="Feb">Feb</option>
+            <option value="Mar">Mar</option>
+            <option value="Apr">Apr</option>
+            <option value="May">May</option>
+            <option value="Jun">Jun</option>
+            <option value="Jul">Jul</option>
+            <option value="Aug">Aug</option>
+            <option value="Sep">Sep</option>
+            <option value="Oct">Oct</option>
+            <option value="Nov">Nov</option>
+            <option value="Dec">Dec</option >
+          </select>
 
-            </form>
-            <a class="birthday-help" href="#" title="Click for more information" role="button">Why do I need to provide my birthday?</a>
-          </div>
+          <select name=“day” placeholder="6">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+          </select>
 
-          <div class="gender">
-            <form>
-              <input type="radio" name="gender" value="male" checked> Male
-              <input type="radio" name="gender" value="female"> Female
-            </form>
-          </div>
+          <select name="year">
+            <option value="1989">1989</option>
+            <option value="1990">1990</option>
+            <option value="1991">1991</option>
+            <option value="1992">1992</option>
+            <option value="1993">1993</option>
+            <option value="1994">1994</option>
+            <option value="1995">1995</option>
+            <option value="1996">1996</option>
+            <option value="1997">1997</option>
+            <option value="1998">1998</option>
+            <option value="1999">1999</option>
+            <option value="2000">2000</option>
 
-        </div>
-        <div class="legal-statement">
-          <p>"By clicking Sign Up, you agree to our "
-            <a href="/legal/terms/update" id="terms-link" target="_blank" rel="nofollow">Terms</a>
-            <a href="/about/privacy/update" id="privacy-link" target="_blank" rel="nofollow">Data Policy</a> " and "
-            <a href="/policies/cookies/" id="cookie-use-link" target="_blank" rel="nofollow">Cookies Policy</a>
-            ". You may receive SMS Notifications from us and can opt out any time.
-          </p>
-        </div>
+        </form>
+
+        <a href="#" title="Click for more information" role="button">Why do I need to provide my birthday?</a>
+
+        <form class="gender">
+          <input type="radio" name="gender" value="male" checked> Male
+          <input type="radio" name="gender" value="female"> Female
+        </form>
+
+        <p class="legal-statement">By clicking Sign Up, you agree to our
+          <a href="/legal/terms/update" id="terms-link" target="_blank" rel="nofollow">Terms</a>
+          <a href="/about/privacy/update" id="privacy-link" target="_blank" rel="nofollow">Data Policy</a> " and "
+          <a href="/policies/cookies/" id="cookie-use-link" target="_blank" rel="nofollow">Cookies Policy</a>
+          ". You may receive SMS Notifications from us and can opt out any time.
+        </p>
+
         <button type="submit" name="websubmit">Sign Up</button>
-        <div class="celebrity">
+
+        <p class="celebrity">
           <a href="/pages/create/?ref_type=registration_form">Create a Page</a>
           " for a celebrity, band or business."
-        </div>
+        </p>
 
       </div> <!-- Right side ends -->
 
-      <div class="flex-item"> <!-- Bottom side starts -->
+      <div class="footer"> <!-- Bottom side starts -->
         <ul class="languages">
           <li>English (US)</li>
           <li>
