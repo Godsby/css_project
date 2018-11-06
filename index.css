@@ -1,0 +1,51 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  font-size: 12px;
+  font-family: sans-serif;
+  background-color: #EDF0F5;
+}
+
+.flex-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 90px auto 60px;;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebook-header {
+  background-color:#3F5D9A;
+  width: 1452px;
+  height: 78px;
+  background-position: 0 0;
+}
+
+img.fb_logo {
+  grid-column: 1;
+  grid-row: 1;
+  position: absolute;
+  z-index: 1
+}
+
+table {
+  display: inline-table;
+  position: absolute;
+  top: 60px;
+  right: 100px;
+  z-index: 1
+}
+
+
+@@media screen and (max-width: 800px) {
+  .flex-item {
+    font-size: 60%;
+  }
+
+  img {
+    width: 100%;
+    min-width: 250px;
+  }
+}
