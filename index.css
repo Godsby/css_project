@@ -74,6 +74,11 @@ body {
   margin: 10px;
 }
 
+.left-side p {
+  display: flex;
+  flex-direction: column;
+}
+
 .img {
   width:56px;
   height: 56px;
@@ -97,10 +102,11 @@ body {
 
 
 .right-side {
-  display:inline-grid;
+  display:grid;
   background-color: #EDF0F5;
   height: 100%;
   align-items: center;
+  justify-content: center;
 }
 
 .right-side p {
